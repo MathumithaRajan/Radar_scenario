@@ -101,6 +101,7 @@ title('RANGE FFT');
 estimated_range = range_idx * (max_range / (Nr/2));
 
 % Display the estimated range
+fprintf('Range Index: %d\n', range_idx);
 fprintf('Estimated Range: %.2f m\n', estimated_range);
 
 %% DOPPLER MEASUREMENT
